@@ -1,9 +1,34 @@
+/*
+	// ------- Tabla de Contenidos ------- //
+	
+	* Estilos Globales
+	  * Estilo 1
+	  * Footer 
+	* Estilos del Home
+	* Estilos de la sección Productos
+	* Estilos de la sección Proyectos
+
+/*
+
+/* ---------------- Estilos Globales ---------------- */
+
 *{
-	margin: 0;
-	padding: 0;
+    margin: 0;
+    padding: 0;
 }
 
-h1{
-	font-size: Arial;
-	color: #6586A5;
+/* ---------------- Footer ---------------- */
+
+footer{
+    background-color: #4C4C4B; /* Irá con degradado */
+    padding: 3px 0;
 }
+
+
+/* ---------------- Estilos del Home ---------------- */
+
+
+/* ---------------- Estilos de la sección Productos ---------------- */
+
+
+/* ---------------- Estilos de la sección Proyectos ---------------- */
