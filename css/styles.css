@@ -46,7 +46,7 @@ footer{
 }
 
 .header-nav{
-	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(255,255,255,-1)), to(rgba(192,192,192,1)));
+	background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(65,65,65,0.53)), to(rgba(155,155,155,0.90)));
 }
 
 .first-nav{
