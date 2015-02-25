@@ -80,5 +80,13 @@ footer{
 
 /* ---------------- Estilos de la sección Productos ---------------- */
 
+.header-products, .content-products{
+	background-color: #404242;
+}
+
+.content-products{
+	height: 100px;
+}
+
 
 /* ---------------- Estilos de la sección Proyectos ---------------- */
