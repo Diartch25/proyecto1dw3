@@ -97,13 +97,41 @@ footer{
 
 /* ---------------- Estilos de la sección Productos ---------------- */
 
-.header-products, .content-products{
+.header-products, .section-content{
 	background-color: #404242;
 }
 
-.content-products{
-	height: 100px;
+.section-content{
+	padding: 30px 5%;
 }
 
+.section-content > h2{
+	font-family: 'happy_monkeyregular';
+	font-size: 2rem;
+}
+
+.section-content > p{
+	font-size: 1.4rem;
+	padding: 20px 0 30px 0;
+}
+
+.section-content > h2, .section-content > p{
+	margin: 0 auto;
+	text-align: center;
+	width: 70%;
+}
+
+.title-header-products{
+	padding: 30px 5%;
+}
+
+.title-header-products h1{
+	font-size: 2.3rem;
+	margin: 30px 0;
+}
+
+.title-header-products p{
+	font-size: 1.4rem;
+}
 
 /* ---------------- Estilos de la sección Proyectos ---------------- */
