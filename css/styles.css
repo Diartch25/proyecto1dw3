@@ -29,6 +29,23 @@
     font-style: normal
 }
 
+@font-face {
+    font-family: 'karlaregular';
+    src: url('../Fonts/karla/Karla-Regular-webfont.eot');
+    src: url('../Fonts/karla/Karla-Regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../Fonts/karla/Karla-Regular-webfont.woff2') format('woff2'),
+         url('../Fonts/karla/Karla-Regular-webfont.woff') format('woff'),
+         url('../Fonts/karla/Karla-Regular-webfont.ttf') format('truetype'),
+         url('../Fonts/karla/Karla-Regular-webfont.svg#karlaregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+body{
+    font-family: "karlaregular";
+}
+
 footer{
     background-color: #4C4C4B; /* Irá con degradado este footer era una prueba para verificar la conección con la hoja de estilos, pero debe quedarse allí*/
     padding: 3px 0;
