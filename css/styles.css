@@ -101,6 +101,20 @@ footer{
 	background-color: #404242;
 }
 
+
+
+.title-header-products{
+	padding: 30px 5%;
+}
+
+.title-header-products h1{
+	font-size: 2.3rem;
+	margin: 30px 0;
+}
+
+.title-header-products p{
+	font-size: 1.4rem;
+}
 .section-content{
 	padding: 30px 5%;
 }
@@ -121,17 +135,6 @@ footer{
 	width: 70%;
 }
 
-.title-header-products{
-	padding: 30px 5%;
-}
 
-.title-header-products h1{
-	font-size: 2.3rem;
-	margin: 30px 0;
-}
-
-.title-header-products p{
-	font-size: 1.4rem;
-}
 
 /* ---------------- Estilos de la sección Proyectos ---------------- */
