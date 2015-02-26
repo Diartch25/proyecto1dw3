@@ -14,7 +14,6 @@
 
 *{
 	margin: 0;
-	overflow: hidden;
 	padding: 0;
 }
 
@@ -43,13 +42,88 @@
 
 }
 
+a{
+	text-decoration: none;
+}
+
 body{
     font-family: "karlaregular";
 }
 
 footer{
-    background-color: #4C4C4B; /* Irá con degradado este footer era una prueba para verificar la conección con la hoja de estilos, pero debe quedarse allí*/
-    padding: 3px 0;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(1,1,1,0.73)), to(rgba(150,155,155,0.9)));
+	padding: 42px 5% 115px 5%;
+}
+
+footer img{
+	float: left;
+}
+
+ul{
+	list-style: none;
+}
+
+.contacts, .social-network{
+	width: 40%
+}
+
+.contacts, .logo-central{
+	float: left;
+}
+
+.foot-facebook{
+	background: url(../img/facebook-footer.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.foot-facebook:hover{
+	background: url(../img/facebook-footer-hov.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.foot-twiter{
+	background: url(../img/twitter-footer.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.foot-twiter:hover{
+	background: url(../img/twitter-footer-hov.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.social-network{
+	float: right;
+	margin: 30px 0 0 0;
+}
+
+.social-network li{
+	float: right;
+	width: 58px;
+	padding: 15px 8px;
+}
+
+.social-network a{
+	color: rgba(255,255,255,0);
+}
+
+.contacts p{
+	margin: 20px 0;
+}
+
+.contacts p a{
+	color: #FFF;
+}
+
+.contacts p a:hover{
+	color: #9FC559;
+}
+
+.logo-central{
+	margin: 15px 0 0 0;
+}
+
+.logo-footer{
+	width: 230px;
 }
 
 
@@ -82,7 +156,6 @@ footer{
 .first-li{
 	display:inline-block;
 	font-family: 'happy_monkeyregular';
-	list-style: none;
 	margin: 0px 30px 0px 30px;
 	margin-bottom: 35px;
 }
@@ -134,7 +207,7 @@ footer{
 /* ---------------- Estilos de la sección Productos ---------------- */
 
 .header-products, .section-content{
-	background-color: #404242;
+	background-color: #344C53;
 }
 
 
