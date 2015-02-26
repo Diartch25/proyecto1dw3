@@ -14,6 +14,7 @@
 
 *{
 	margin: 0;
+	overflow: hidden;
 	padding: 0;
 }
 
@@ -26,7 +27,7 @@
          url('../Fonts/happy_monkeyregular/HappyMonkey-Regular-webfont.ttf') format('truetype'),
          url('../Fonts/happy_monkeyregular/HappyMonkey-Regular-webfont.svg#happy_monkeyregular') format('svg');
     font-weight: normal;
-    font-style: normal
+    font-style: normal;
 }
 
 @font-face {
@@ -54,12 +55,13 @@ footer{
 
 /* ---------------- Estilos del Home ---------------- */
 .header-home{
-	background: url(../img/Background-Example.jpg) no-repeat center;
+    background: url(../img/Background-Example.jpg) no-repeat center;
 	background-size: cover;
+	height: 900px;
 }
 
 .logo{
-	width: 30%;
+	width: 400px;
 }
 
 .header-nav{
@@ -67,33 +69,67 @@ footer{
 }
 
 .first-nav{
-	float: right;
+
 }
 
 .first-nav a{
 	color: #fff;
-	font-size: 1rem;
+	font-size: 1.41rem;
 	text-decoration: none;
 }
 
-.first-nav li{
+
+.first-li{
+	display:inline-block;
 	font-family: 'happy_monkeyregular';
 	list-style: none;
+	margin: 0px 30px 0px 30px;
+	margin-bottom: 35px;
+}
+
+.li-logo{
 	display:inline-block;
+	margin: 0;
 }
 
-.first-nav li ul li{
+.first-li a:hover {
+	color: #9FC559;
+
+}
+
+.sub-menu a{
+	color: #5a5a5a;
+	font-size: 1.2rem;
+}
+.sub-menu a:hover{
+	color: #73844f;
+	font-size: 1.2rem;
+}
+
+
+.sub-menu li{
+	font-size: 1.2rem;
 	display:block;
+	margin-bottom: 15px;
 }
 
-.first-nav li ul{
-	position: fixed;
+.sub-menu{
+	background-color: rgba(255,255,255,0.7);
+	border-radius: 5px;
 	display: none;
+	margin-left: -17px;
+	padding: 11px;
+	position: fixed;
 }
 
-.first-nav li:hover ul{
+.first-li:hover ul{
 	display: block;
 }
+
+.first-nav li:hover{
+	border-bottom: 1px solid  #9FC559;
+}
+
 
 /* ---------------- Estilos de la sección Productos ---------------- */
 
