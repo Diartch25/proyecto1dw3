@@ -47,7 +47,7 @@ a{
 }
 
 body{
-    font-family: "karlaregular";
+    font-family: "karlaregular", Arial, sans-serif;
 }
 
 footer{
@@ -217,8 +217,12 @@ ul{
 }
 
 .title-header-products h1{
+	background-color: rgba(255, 255, 255, 0.6);
+	border-bottom: 1px solid #6F6B2E;
+	color: #EFE54F;
 	font-size: 2.3rem;
 	margin: 30px 0;
+	padding: 2px 0 4px 3px
 }
 
 .title-header-products p{
@@ -229,7 +233,7 @@ ul{
 }
 
 .section-content > h2{
-	font-family: 'happy_monkeyregular';
+	font-family: "happy_monkeyregular";
 	font-size: 2rem;
 }
 
@@ -251,6 +255,71 @@ ul{
 	height: 800px;
 	margin: 20px auto;
 }
+
+.div-cat {
+    width: 300px;
+    height: 200px;
+    margin: 40px 10px;
+    float: left;
+    border: 2px solid #9FC559;
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    cursor: default;
+}
+
+.div-cat a {
+	color: #C9E8F6;
+	font-size: 0.9rem;
+	font-family: "happy_monkeyregular";
+	border: 1px solid #C9E8F6;
+	border-color: rgba(149, 213, 242, 0.9);
+	padding: 4px 9px;
+	
+}
+
+.div-cat a:hover {
+	color: #FFF;
+	border: 1px solid #FFF;
+	background-color: rgba(255, 255, 255, 0.2);
+}
+
+.div-cat h3 {
+	color: #EFE54F;
+	font-size: 1.3rem;
+	margin: 8px 0 0 0;
+	padding: 2px;
+	position: relative;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+.div-cat img {
+   display: block;
+   position: relative;
+   width: 300px;
+   height: 200px;
+   margin: 0 auto;
+}
+
+.div-cat p {
+	color: #9FC559;
+	font-size: 0.8rem;
+	position: relative;
+	padding: 7px 7px 18px;
+	text-align: center;
+}
+
+.div-cat .deco, .div-cat .div-information {
+   width: 300px;
+   height: 200px;
+   position: absolute;
+   overflow: hidden;
+   top: 0;
+   left: 0;
+}
+
+
 
 
 /* ---------------- Estilos de la sección Proyectos ---------------- */
