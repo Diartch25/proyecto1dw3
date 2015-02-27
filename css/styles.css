@@ -244,6 +244,13 @@ ul{
 	width: 70%;
 }
 
+/*------------------Galería-----------------------*/
+
+.div-category{
+	width: 86%;
+	height: 800px;
+	margin: 20px auto;
+}
 
 
 /* ---------------- Estilos de la sección Proyectos ---------------- */
