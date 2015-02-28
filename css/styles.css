@@ -59,6 +59,17 @@ footer img{
 	float: left;
 }
 
+h2{
+	color: #C9E8F6;
+	font-family: "karlaregular";
+	font-size: 2.5rem;
+	border-bottom: 2px solid #C9E8F6;
+	margin: 0 auto;
+	padding: 38px 0;
+	text-align: center;
+	width: 70%;
+}
+
 ul{
 	list-style: none;
 }
@@ -166,7 +177,6 @@ ul{
 }
 
 
-
 .first-li a:hover {
 	color: #9FC559;
 
@@ -255,10 +265,9 @@ ul{
 }
 
 
-
 /* ---------------- Estilos de la sección Productos ---------------- */
 
-.header-products, .section-content{
+.header-products, .subsection-products{
 	background-color: #344C53;
 }
 
@@ -269,33 +278,31 @@ ul{
 }
 
 .title-header-products h1{
-	background-color: rgba(255, 255, 255, 0.6);
-	border-bottom: 1px solid #6F6B2E;
-	color: #EFE54F;
+	border-bottom: 2px solid #C9E8F6;
+	color: #C9E8F6;
 	font-size: 2.3rem;
 	margin: 30px 0;
-	padding: 2px 0 4px 3px
+	padding: 2px 0 23px 3px;
 }
 
 .title-header-products p{
+	color: #D5D5D5;
 	font-size: 1.4rem;
+	margin: 0 auto;
+	padding: 39px 0 0 0;
+	width: 94%;
 }
-.section-content{
+
+.subsection-products{
 	padding: 30px 5%;
 }
 
-.section-content > h2{
-	font-family: "happy_monkeyregular";
-	font-size: 2rem;
-}
-
-.section-content > p{
+.subsection > p{
+	color: #D5D5D5;
 	font-size: 1.4rem;
 	padding: 20px 0 30px 0;
-}
-
-.section-content > h2, .section-content > p{
 	margin: 0 auto;
+	padding: 38px 0;
 	text-align: center;
 	width: 70%;
 }
@@ -304,14 +311,14 @@ ul{
 
 .div-category{
 	width: 86%;
-	height: 800px;
 	margin: 20px auto;
+	overflow: hidden;
 }
 
 .div-cat {
     width: 300px;
     height: 200px;
-    margin: 40px 10px;
+    margin: 40px 2%;
     float: left;
     border: 2px solid #9FC559;
     overflow: hidden;
