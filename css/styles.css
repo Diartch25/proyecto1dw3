@@ -72,12 +72,31 @@ ul{
 	list-style: none;
 }
 
+.subsection > p{
+	color: #D5D5D5;
+	font-size: 1.4rem;
+	margin: 0 auto;
+	padding: 38px 0;
+	text-align: center;
+	width: 70%;
+}
+
+.title-header-subsection > p{
+	padding: 39px 0 0 0;
+	width: 94%;
+	text-align: left;
+}
+
+.subsection-products, .subsection-projects-new, .subsection-contacts, .subsection-about, .title-header-subsection{  /*Pertenece también a la sección de Proyectos*/
+	padding: 30px 5%;
+}
+
 footer img{
 	float: left;
 }
 
 .contacts, .social-network{
-	width: 40%
+	width: 33%;
 }
 
 .contacts, .logo-central{
@@ -273,13 +292,11 @@ footer img{
 	background-color: #344C53;
 }
 
-.header-projects-news, .subsection-projects-news{
+.header-projects-nes, .subsection-infobox{
 	background-color: #127059;
+	overflow: hidden;
 }
 
-.title-header-subsection{
-	padding: 30px 5%;
-}
 
 .title-header-subsection h1{
 	border-bottom: 2px solid #C9E8F6;
@@ -287,27 +304,6 @@ footer img{
 	font-size: 2.3rem;
 	margin: 30px 0;
 	padding: 2px 0 23px 3px;
-}
-
-.title-header-subsection p{
-	color: #D5D5D5;
-	font-size: 1.4rem;
-	margin: 0 auto;
-	padding: 39px 0 0 0;
-	width: 94%;
-}
-
-.subsection-products, .subsection-projects-news{  /*Pertenece también a la sección de Proyectos*/
-	padding: 30px 5%;
-}
-
-.subsection > p{
-	color: #D5D5D5;
-	font-size: 1.4rem;
-	margin: 0 auto;
-	padding: 38px 0;
-	text-align: center;
-	width: 70%;
 }
 
 /*------------------Galería-----------------------*/
@@ -380,35 +376,35 @@ footer img{
    top: 0;
    width: 300px;
 }
-
+/* ---------------- Producto específico ---------------- */
 
 
 
 /* ---------------- Estilos de la sección Proyectos ---------------- */
 
-.div-projects-news{
+.div-infobox{
 	box-sizing: border-box;
 	background-color: #465C66;
 	border-top: 1px solid #E6FEB9;
 	border-bottom: 1px solid #E6FEB9;
 	overflow: hidden;
 	padding: 33px 3%;
-	margin: 64px 0;
+	margin: 64px auto;
 	width: 90%;
 
 }
 
-.div-projects-news:hover{
+.div-infobox:hover{
 	background-color: #63899A;
 }
 
-.div-projects-news-title{
+.div-infobox-title{
 	display: inline;
 	float: left;
 	width: 30%;
 }
 
-.div-projects-news-title h2{
+.div-infobox-title h2{
 	color: #C9E8F6;
 	border: none;
 	font-size: 1.8rem;
@@ -417,14 +413,14 @@ footer img{
 	text-align: left;
 }
 
-.div-projects-news-title img{
+.div-infobox-title img{
 	border: 2px solid #C9E8F6;
 	border-radius: 3px;
 	height: 229px;
 	width: 100%;
 }
 
-.div-projects-news-content{
+.div-infobox-content{
 	float: right;
 	display: inline;
 	width: 70%;
@@ -432,14 +428,49 @@ footer img{
 	color: #D5D5D5;
 }
 
-.div-projects-news-content p{
+.div-infobox-content p{
 	margin: 24px 5%;
 	font-size: 1.2rem;
 	color: #D5D5D5;
 }
 
-/* Contactos*/
+/* ---------------- Contactos ---------------- */
+
+.div-contacts{
+	width: 70%;
+	margin: 0 auto;
+	padding: 0 0 100px 0;
+}
+
+.div-contacts input, .div-contacts textarea{
+	margin: 24px auto;
+	padding: 4px 13px;
+	display: block;
+	border: none;
+	font-size: 1.1rem;
+	color: #C9E8F6;
+	font-family: "happy_monkeyregular";
+	background-color: #232344;
+	border-bottom: 2px solid #F7F7F5;
+	border-right: 2px solid #F7F7F5;
+}
+
+.div-contacts input:focus, .div-contacts textarea:focus{
+	background-color: #4A4A6D;
+}
+
+.div-contacts input{
+	height: 35px;
+	width: 41%;
+}
+
+.div-contacts textarea{
+	height: 155px;
+	width: 41.22%;
+}
 
 .subsection-contacts{
 	background-color: #7B7BB1;
+	overflow: hidden;
+	padding: 0 
 }
