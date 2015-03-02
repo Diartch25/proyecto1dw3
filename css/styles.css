@@ -313,7 +313,7 @@ footer img{
 .subsection-about img{
 	margin: 33px 0 100px 33px;
 	width: 330px;
-} 
+}
 
 /* ---------------- Estilos de la sección Productos ---------------- */
 
@@ -475,7 +475,6 @@ footer img{
 .div-contacts input, .div-contacts textarea{
 	background-color: #232344;
 	border-bottom: 2px solid #F7F7F5;
-	border: none;
 	border-right: 2px solid #F7F7F5;
 	color: #C9E8F6;
 	display: block;
@@ -483,6 +482,8 @@ footer img{
 	margin: 24px auto;
 	font-size: 1.1rem;
 	padding: 4px 13px;
+	border-top: 0px solid #232344;
+	border-left: 0px solid #232344;
 }
 
 .div-contacts input:focus, .div-contacts textarea:focus{
