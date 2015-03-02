@@ -55,9 +55,7 @@ footer{
 	padding: 42px 5% 115px 5%;
 }
 
-footer img{
-	float: left;
-}
+
 
 h2{
 	color: #C9E8F6;
@@ -72,6 +70,10 @@ h2{
 
 ul{
 	list-style: none;
+}
+
+footer img{
+	float: left;
 }
 
 .contacts, .social-network{
@@ -271,13 +273,15 @@ ul{
 	background-color: #344C53;
 }
 
+.header-projects-news, .subsection-projects-news{
+	background-color: #127059;
+}
 
-
-.title-header-products{
+.title-header-subsection{
 	padding: 30px 5%;
 }
 
-.title-header-products h1{
+.title-header-subsection h1{
 	border-bottom: 2px solid #C9E8F6;
 	color: #C9E8F6;
 	font-size: 2.3rem;
@@ -285,7 +289,7 @@ ul{
 	padding: 2px 0 23px 3px;
 }
 
-.title-header-products p{
+.title-header-subsection p{
 	color: #D5D5D5;
 	font-size: 1.4rem;
 	margin: 0 auto;
@@ -293,14 +297,13 @@ ul{
 	width: 94%;
 }
 
-.subsection-products{
+.subsection-products, .subsection-projects-news{  /*Pertenece también a la sección de Proyectos*/
 	padding: 30px 5%;
 }
 
 .subsection > p{
 	color: #D5D5D5;
 	font-size: 1.4rem;
-	padding: 20px 0 30px 0;
 	margin: 0 auto;
 	padding: 38px 0;
 	text-align: center;
@@ -310,21 +313,22 @@ ul{
 /*------------------Galería-----------------------*/
 
 .div-category{
-	width: 86%;
 	margin: 20px auto;
 	overflow: hidden;
+	width: 86%;
 }
 
 .div-cat {
-    width: 300px;
+    border: 2px solid #9FC559;
+    cursor: default;
     height: 200px;
     margin: 40px 2%;
     float: left;
-    border: 2px solid #9FC559;
     overflow: hidden;
     position: relative;
     text-align: center;
-    cursor: default;
+    
+    width: 300px;
 }
 
 .div-cat a {
@@ -334,7 +338,6 @@ ul{
 	border: 1px solid #C9E8F6;
 	border-color: rgba(149, 213, 242, 0.9);
 	padding: 4px 9px;
-	
 }
 
 .div-cat a:hover {
@@ -355,30 +358,88 @@ ul{
 
 .div-cat img {
    display: block;
-   position: relative;
-   width: 300px;
    height: 200px;
    margin: 0 auto;
+   position: relative;
+   width: 300px;
 }
 
 .div-cat p {
 	color: #9FC559;
 	font-size: 0.8rem;
-	position: relative;
 	padding: 7px 7px 18px;
+	position: relative;
 	text-align: center;
 }
 
 .div-cat .deco, .div-cat .div-information {
-   width: 300px;
    height: 200px;
-   position: absolute;
-   overflow: hidden;
-   top: 0;
    left: 0;
+   overflow: hidden;
+   position: absolute;
+   top: 0;
+   width: 300px;
 }
 
 
 
 
 /* ---------------- Estilos de la sección Proyectos ---------------- */
+
+.div-projects-news{
+	box-sizing: border-box;
+	background-color: #465C66;
+	border-top: 1px solid #E6FEB9;
+	border-bottom: 1px solid #E6FEB9;
+	overflow: hidden;
+	padding: 33px 3%;
+	margin: 64px 0;
+	width: 90%;
+
+}
+
+.div-projects-news:hover{
+	background-color: #63899A;
+}
+
+.div-projects-news-title{
+	display: inline;
+	float: left;
+	width: 30%;
+}
+
+.div-projects-news-title h2{
+	color: #C9E8F6;
+	border: none;
+	font-size: 1.8rem;
+	margin: 0px;
+	padding: 18px 0;
+	text-align: left;
+}
+
+.div-projects-news-title img{
+	border: 2px solid #C9E8F6;
+	border-radius: 3px;
+	height: 229px;
+	width: 100%;
+}
+
+.div-projects-news-content{
+	float: right;
+	display: inline;
+	width: 70%;
+	font-size: 1.2rem;
+	color: #D5D5D5;
+}
+
+.div-projects-news-content p{
+	margin: 24px 5%;
+	font-size: 1.2rem;
+	color: #D5D5D5;
+}
+
+/* Contactos*/
+
+.subsection-contacts{
+	background-color: #7B7BB1;
+}
