@@ -466,6 +466,18 @@ footer img{
 	float: left;
 }
 
+.contacts p{
+	margin: 20px 0;
+}
+
+.contacts p a{
+	color: #FFF;
+}
+
+.contacts p a:hover{
+	color: #9FC559;
+}
+
 .contacts, .social-network{
 	width: 33%;
 }
@@ -494,6 +506,14 @@ footer img{
 	background-size: 43px;
 }
 
+.logo-central{
+	margin: 15px 0 0 0;
+}
+
+.logo-footer{
+	width: 230px;
+}
+
 .social-network{
 	float: right;
 	margin: 30px 0 0 0;
@@ -509,22 +529,7 @@ footer img{
 	color: rgba(255,255,255,0);
 }
 
-.contacts p{
-	margin: 20px 0;
-}
 
-.contacts p a{
-	color: #FFF;
-}
 
-.contacts p a:hover{
-	color: #9FC559;
-}
 
-.logo-central{
-	margin: 15px 0 0 0;
-}
 
-.logo-footer{
-	width: 230px;
-}
