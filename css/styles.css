@@ -421,7 +421,7 @@ ul{
 	width: 70%;
 }
 
-.div-contacts input, .div-contacts textarea{
+.forms{
 	background-color: #232344;
 	border-bottom: 2px solid #F7F7F5;
 	border-right: 2px solid #F7F7F5;
@@ -435,16 +435,16 @@ ul{
 	border-left: 0px solid #232344;
 }
 
-.div-contacts input:focus, .div-contacts textarea:focus{
+.forms:focus, .forms-textarea:focus{
 	background-color: #4A4A6D;
 }
 
-.div-contacts input{
+.forms{
 	height: 35px;
 	width: 41%;
 }
 
-.div-contacts textarea{
+.forms-textarea{
 	height: 155px;
 	width: 41.22%;
 }
