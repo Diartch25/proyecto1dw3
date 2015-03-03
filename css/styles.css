@@ -63,7 +63,7 @@ h2{
 	font-size: 2.5rem;
 	border-bottom: 2px solid #C9E8F6;
 	margin: 0 auto;
-	padding: 38px 0;
+	padding: 154px 0 38px 0;
 	text-align: center;
 	width: 70%;
 }
@@ -90,6 +90,9 @@ ul{
 .subsection-products, .subsection-projects-new, .subsection-contacts, .subsection-about, .title-header-subsection{  /*Pertenece también a la sección de Proyectos*/
 	padding: 30px 5%;
 }
+
+
+
 
 footer img{
 	float: left;
@@ -232,6 +235,12 @@ footer img{
 	width: 400px;
 }
 
+.nav-banner{
+	position: fixed;
+	width: 100%;
+	z-index: 10;
+}
+
 .sub-menu a{
 	color: #95D5F2;
 	font-size: 1.2rem;
@@ -262,10 +271,13 @@ footer img{
 	background-color: #95D5F2;
 }
 
+.title-group{
+	padding: 350px 0;
+}
+
 .title-header{
 	margin: 0 auto;
 	background-color: rgba(000,000,000,0.4);
-	margin-top: 202px;
 	text-align: center;
 	width: 56%;
 }
@@ -452,6 +464,7 @@ footer img{
 	margin: 24px 5%;
 }
 
+<<<<<<< HEAD
 /* ---------------- Noticia específica ---------------- */
 
 .div-infobox-title .img-noticia{
@@ -459,6 +472,8 @@ footer img{
 	width: 383px;
 	height: 291px;
 }
+=======
+>>>>>>> faab0231e3ebda55690b8cce3c1a3c3159cc07dc
 
 /* ---------------- Contactos ---------------- */
 
