@@ -2,11 +2,21 @@
 	// ------- Tabla de Contenidos ------- //
 	
 	* Estilos Globales
-	  * Estilo 1
-	  * Footer 
+	  * Estilo de la Nvegación
+	  * Estilo de las Subsecciones
+
 	* Estilos del Home
+	  * Estilos del Acerca de
+
 	* Estilos de la sección Productos
-	* Estilos de la sección Proyectos
+      * Estilos de la Galerìa
+
+	* Estilos de la sección Proyectos y Noticias
+		* Noticia específica
+
+	* Contactos
+
+	* Footer
 
 /*
 
@@ -50,12 +60,6 @@ body{
     font-family: "karlaregular", Arial, sans-serif;
 }
 
-footer{
-    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(1,1,1,0.73)), to(rgba(150,155,155,0.9)));
-	padding: 42px 5% 115px 5%;
-}
-
-
 
 h2{
 	color: #C9E8F6;
@@ -72,119 +76,7 @@ ul{
 	list-style: none;
 }
 
-.subsection > p{
-	color: #D5D5D5;
-	font-size: 1.4rem;
-	margin: 0 auto;
-	padding: 38px 0;
-	text-align: center;
-	width: 70%;
-}
-
-.title-header-subsection > p{
-	padding: 39px 0 0 0;
-	text-align: left;
-	width: 94%;
-}
-
-.subsection-products, .subsection-projects-new, .subsection-contacts, .subsection-about, .title-header-subsection{  /*Pertenece también a la sección de Proyectos*/
-	padding: 30px 5%;
-}
-
-
-
-
-footer img{
-	float: left;
-}
-
-.contacts, .social-network{
-	width: 33%;
-}
-
-.contacts, .logo-central{
-	float: left;
-}
-
-.foot-facebook{
-	background: url(../img/facebook-footer.png)no-repeat top center;
-	background-size: 43px;
-}
-
-.foot-facebook:hover{
-	background: url(../img/facebook-footer-hov.png)no-repeat top center;
-	background-size: 43px;
-}
-
-.foot-twiter{
-	background: url(../img/twitter-footer.png)no-repeat top center;
-	background-size: 43px;
-}
-
-.foot-twiter:hover{
-	background: url(../img/twitter-footer-hov.png)no-repeat top center;
-	background-size: 43px;
-}
-
-.social-network{
-	float: right;
-	margin: 30px 0 0 0;
-}
-
-.social-network li{
-	float: right;
-	width: 58px;
-	padding: 15px 8px;
-}
-
-.social-network a{
-	color: rgba(255,255,255,0);
-}
-
-.contacts p{
-	margin: 20px 0;
-}
-
-.contacts p a{
-	color: #FFF;
-}
-
-.contacts p a:hover{
-	color: #9FC559;
-}
-
-.logo-central{
-	margin: 15px 0 0 0;
-}
-
-.logo-footer{
-	width: 230px;
-}
-
-
-/* ---------------- Estilos del Home ---------------- */
-
-.button-products{
-	background-color: rgba(147,212,244,0.4);
-	border: 1px solid #93D4F4;
-	color: #ddd;
-	display: table;
-	font-size: 22px;
-	margin: 0 auto;
-	padding: 10px 25px 10px 25px;
-}
-
-.button-products:hover{
-	background-color: rgba(255,255,255,0.4);
-	border: 1px solid #fff;
-	color: #fff;
-}
-
-.header-home{
-    background: url(../img/Background-Example.jpg) no-repeat center;
-	background-size: cover;
-	height: 900px;
-}
+/* ---------------- Estilos de la Navegación ---------------- */
 
 .first-nav{
 	float: right;
@@ -271,6 +163,53 @@ footer img{
 	background-color: #95D5F2;
 }
 
+/* ---------------- Estilos de las Subsecciones ---------------- */
+
+.subsection > p{
+	color: #D5D5D5;
+	font-size: 1.4rem;
+	margin: 0 auto;
+	padding: 38px 0;
+	text-align: center;
+	width: 70%;
+}
+
+.title-header-subsection > p{
+	padding: 39px 0 0 0;
+	text-align: left;
+	width: 94%;
+}
+
+.subsection-products, .subsection-projects-new, .subsection-contacts, .subsection-about, .title-header-subsection{  /*Pertenece también a la sección de Proyectos*/
+	padding: 30px 5%;
+}
+
+
+
+/* ---------------- Estilos del Home ---------------- */
+
+.button-products{
+	background-color: rgba(147,212,244,0.4);
+	border: 1px solid #93D4F4;
+	color: #ddd;
+	display: table;
+	font-size: 22px;
+	margin: 0 auto;
+	padding: 10px 25px 10px 25px;
+}
+
+.button-products:hover{
+	background-color: rgba(255,255,255,0.4);
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.header-home{
+    background: url(../img/Background-Example.jpg) no-repeat center;
+	background-size: cover;
+	height: 900px;
+}
+
 .title-group{
 	padding: 350px 0;
 }
@@ -317,7 +256,7 @@ footer img{
 	width: 330px;
 }
 
-/* ---------------- Estilos de la sección Productos ---------------- */
+/* ---------------- Estilos de la Sección Productos ---------------- */
 
 .header-products, .subsection-products{
 	background-color: #344C53;
@@ -329,7 +268,7 @@ footer img{
 }
 
 
-.title-header-subsection h1{
+.title-header-subsection h1, .title-header-subsection h1 a{
 	border-bottom: 2px solid #C9E8F6;
 	color: #C9E8F6;
 	font-size: 2.3rem;
@@ -337,7 +276,11 @@ footer img{
 	padding: 103px 0 23px 3px;
 }
 
-/*------------------Galería-----------------------*/
+.title-header-subsection h1 a:hover{
+	color: #9FC559;
+}
+
+/*------------------ Estilos de la Galerìa -----------------------*/
 
 .div-category{
 	margin: 20px auto;
@@ -354,7 +297,6 @@ footer img{
     overflow: hidden;
     position: relative;
     text-align: center;
-    
     width: 300px;
 }
 
@@ -407,10 +349,9 @@ footer img{
    top: 0;
    width: 300px;
 }
-/* ---------------- Producto específico ---------------- */
 
 
-/* ---------------- Estilos de la sección Proyectos ---------------- */
+/* ---------------- Estilos de la Sección Proyectos ---------------- */
 
 .div-infobox{
 	box-sizing: border-box;
@@ -464,7 +405,6 @@ footer img{
 	margin: 24px 5%;
 }
 
-<<<<<<< HEAD
 /* ---------------- Noticia específica ---------------- */
 
 .div-infobox-title .img-noticia{
@@ -472,8 +412,6 @@ footer img{
 	width: 383px;
 	height: 291px;
 }
-=======
->>>>>>> faab0231e3ebda55690b8cce3c1a3c3159cc07dc
 
 /* ---------------- Contactos ---------------- */
 
@@ -515,4 +453,78 @@ footer img{
 	background-color: #7B7BB1;
 	overflow: hidden;
 	padding: 0 
+}
+
+/* ---------------- Footer ---------------- */
+
+footer{
+    background-image: -webkit-gradient(linear, left top, left bottom, from(rgba(1,1,1,0.73)), to(rgba(150,155,155,0.9)));
+	padding: 42px 5% 115px 5%;
+}
+
+footer img{
+	float: left;
+}
+
+.contacts, .social-network{
+	width: 33%;
+}
+
+.contacts, .logo-central{
+	float: left;
+}
+
+.foot-facebook{
+	background: url(../img/facebook-footer.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.foot-facebook:hover{
+	background: url(../img/facebook-footer-hov.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.foot-twiter{
+	background: url(../img/twitter-footer.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.foot-twiter:hover{
+	background: url(../img/twitter-footer-hov.png)no-repeat top center;
+	background-size: 43px;
+}
+
+.social-network{
+	float: right;
+	margin: 30px 0 0 0;
+}
+
+.social-network li{
+	float: right;
+	width: 58px;
+	padding: 15px 8px;
+}
+
+.social-network a{
+	color: rgba(255,255,255,0);
+}
+
+.contacts p{
+	margin: 20px 0;
+}
+
+.contacts p a{
+	color: #FFF;
+}
+
+.contacts p a:hover{
+	color: #9FC559;
+}
+
+.logo-central{
+	margin: 15px 0 0 0;
+}
+
+.logo-footer{
+	width: 230px;
 }
