@@ -165,7 +165,9 @@ footer img{
 	background-color: rgba(147,212,244,0.4);
 	border: 1px solid #93D4F4;
 	color: #ddd;
+	display: table;
 	font-size: 22px;
+	margin: 0 auto;
 	padding: 10px 25px 10px 25px;
 }
 
@@ -320,7 +322,7 @@ footer img{
 	color: #C9E8F6;
 	font-size: 2.3rem;
 	margin: 30px 0;
-	padding: 2px 0 23px 3px;
+	padding: 103px 0 23px 3px;
 }
 
 /*------------------Galería-----------------------*/
@@ -396,7 +398,6 @@ footer img{
 /* ---------------- Producto específico ---------------- */
 
 
-
 /* ---------------- Estilos de la sección Proyectos ---------------- */
 
 .div-infobox{
@@ -449,6 +450,14 @@ footer img{
 	font-size: 1.2rem;
 	color: #D5D5D5;
 	margin: 24px 5%;
+}
+
+/* ---------------- Noticia específica ---------------- */
+
+.div-infobox-title .img-noticia{
+	margin-top: 41px;
+	width: 383px;
+	height: 291px;
 }
 
 /* ---------------- Contactos ---------------- */
